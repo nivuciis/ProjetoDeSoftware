@@ -3,8 +3,8 @@
 
  Implementado herança e polimorfismo, que podem ser vistos nas classes Pessoa,Aluno e Professor, através do metodo MostrarInfo, no qual Aluno e Professor são subclasse de Pessoa.
 
-## Code Smells:
-### Message Chains:
+<h2>Code Smells:</h2>
+<h3>Message Chains:</h3>
 Classe Aluno: Linhas(102, 143, 144, 145)
 
 Classe App: Linhas(40, 53, 86, 90, 91, 92, 93, 94, 124, 128, 132, 147, 149, 158, 160, 175, 190, 192,  208,  210, 211, 216)
@@ -15,14 +15,15 @@ Classe Disciplina: Linha 34
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------
 
-### Especulative Generality:
+<h3>Especulative Generality:</h3>
 Classe Padrao: Todas as linhas
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------
 
-### Duplicated Code:
+<h3>Duplicated Code:</h3>
 Classe Aluno: Linhas(19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 66, 67, 68, 69, 82, 83, 84, 85)
 
 Classe Professor: Linhas(13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50)
 
 Classe Pessoa: Linhas(20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 5220, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52)
+
